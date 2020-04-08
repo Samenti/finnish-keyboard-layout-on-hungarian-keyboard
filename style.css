@@ -1,0 +1,167 @@
+main {
+/*   font-family: 'Roboto Mono', monospace; */
+/*   font-family: 'Roboto', sans-serif; */
+  font-family: 'Noto Serif', serif;
+  font-size: 28px;
+}
+
+.keyboard {
+  margin: none;
+  border: medium solid grey;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.square-button {
+  box-sizing: border-box;
+  height: 96px;
+  width: 96px;
+  background: white;
+  border: thin solid black;
+  padding: 10px;
+  position: relative;
+}
+
+.backspace-button {
+  box-sizing: border-box;
+  height: 96px;
+  width: 140px;
+  background: white;
+  border: thin solid black;
+  padding: 10px;
+}
+
+.backspace-text {
+  position: relative;
+  top: -5px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.tab-button {
+  box-sizing: border-box;
+  height: 96px;
+  width: 110px;
+  background: white;
+  border: thin solid black;
+  padding: 10px;
+}
+
+.tab-text {
+  position: relative;
+  top: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.enter-button-upper {
+  box-sizing: border-box;
+  height: 96px;
+  width: 110px;
+  background: white;
+  border: thin solid black;
+  padding: 10px;
+}
+
+.enter-button-lower {
+  box-sizing: border-box;
+  height: 96px;
+  width: 80px;
+  background: white;
+  border: thin solid black;
+  padding: 10px;
+}
+
+.enter-text {
+  position: relative;
+  top: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.caps-button {
+  box-sizing: border-box;
+  height: 96px;
+  width: 130px;
+  background: white;
+  border: thin solid black;
+  padding: 10px;
+}
+
+.caps-text {
+  position: relative;
+  top: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.left-shift {
+  box-sizing: border-box;
+  height: 96px;
+  width: 80px;
+  background: white;
+  border: thin solid black;
+  padding: 10px;
+}
+
+.right-shift {
+  box-sizing: border-box;
+  height: 96px;
+  width: 200px;
+  background: white;
+  border: thin solid black;
+  padding: 10px;
+}
+
+.shift-text {
+  text-align: center;
+  font-size: 36px;
+  transform: scaleY(0.7);
+}
+
+.left-upper {
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.left-lower {
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  bottom: 14px;
+  left: 12px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.right-upper {
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  top: 14px;
+  right: 12px;
+  font-size: 26px;
+  text-align: center;
+  color: #10c230;
+}
+
+.right-lower {
+  height: 28px;
+  width: 28px;
+  position: absolute;
+  bottom: 14px;
+  right: 12px;
+  font-size: 26px;
+  text-align: center;
+  color: #cc184b;
+}
