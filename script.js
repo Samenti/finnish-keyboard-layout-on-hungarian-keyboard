@@ -54,6 +54,34 @@ let altgrShiftCharsFi = [
   '', '&#439;', '&#183;', '', '', '', '&#330;', '&#8212;', '&#8216;', '&#729;', '&#806;'
 ];
 
+let noModCharsUs = [
+  '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=',
+  'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']',
+  'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', '\'', '\\',
+  '\\', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/'
+];
+
+let shiftCharsUs = [
+  '~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+',
+  'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{', '}',
+  'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':', '"', '|',
+  '|', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<', '>', '?'
+];
+
+let altgrCharsUs = [
+  '', '', '', '', '', '', '', '', '', '', '', '', '', 
+  '', '', '', '', '', '', '', '', '', '', '', '', 
+  '', '', '', '', '', '', '', '', '', '', '', '', 
+  '', '', '', '', '', '', '', '', '', '', ''
+];
+
+let altgrShiftCharsUs = [
+  '', '', '', '', '', '', '', '', '', '', '', '', '', 
+  '', '', '', '', '', '', '', '', '', '', '', '', 
+  '', '', '', '', '', '', '', '', '', '', '', '', 
+  '', '', '', '', '', '', '', '', '', '', ''
+];
+
 function switchValuesHu()  {
   document.getElementById("char-1-1").innerHTML = noModCharsHu[0]
   document.getElementById("char-1-2").innerHTML = shiftCharsHu[0]
@@ -498,4 +526,227 @@ function switchValuesFi()  {
   document.getElementById("char-48-3").innerHTML = altgrCharsFi[47]
   document.getElementById("char-48-4").innerHTML = altgrShiftCharsFi[47]
   document.getElementById("char-48-4").style.background = "#dedede";
+}
+
+function switchValuesUs()  {
+  document.getElementById("char-1-1").innerHTML = noModCharsUs[0]
+  document.getElementById("char-1-2").innerHTML = shiftCharsUs[0]
+  document.getElementById("char-1-3").innerHTML = altgrCharsUs[0]
+  document.getElementById("char-1-3").style.background = "white";
+  document.getElementById("char-1-4").innerHTML = altgrShiftCharsUs[0]
+  document.getElementById("char-2-1").innerHTML = noModCharsUs[1]
+  document.getElementById("char-2-2").innerHTML = shiftCharsUs[1]
+  document.getElementById("char-2-3").innerHTML = altgrCharsUs[1]
+  document.getElementById("char-2-4").innerHTML = altgrShiftCharsUs[1]
+  document.getElementById("char-3-1").innerHTML = noModCharsUs[2]
+  document.getElementById("char-3-2").innerHTML = shiftCharsUs[2]
+  document.getElementById("char-3-3").innerHTML = altgrCharsUs[2]
+  document.getElementById("char-3-3").style.background = "white";
+  document.getElementById("char-3-4").innerHTML = altgrShiftCharsUs[2]
+  document.getElementById("char-4-1").innerHTML = noModCharsUs[3]
+  document.getElementById("char-4-2").innerHTML = shiftCharsUs[3]
+  document.getElementById("char-4-3").innerHTML = altgrCharsUs[3]
+  document.getElementById("char-4-3").style.background = "white";
+  document.getElementById("char-4-4").innerHTML = altgrShiftCharsUs[3]
+  document.getElementById("char-5-1").innerHTML = noModCharsUs[4]
+  document.getElementById("char-5-2").innerHTML = shiftCharsUs[4]
+  document.getElementById("char-5-3").innerHTML = altgrCharsUs[4]
+  document.getElementById("char-5-3").style.background = "white";
+  document.getElementById("char-5-4").innerHTML = altgrShiftCharsUs[4]
+  document.getElementById("char-6-1").innerHTML = noModCharsUs[5]
+  document.getElementById("char-6-2").innerHTML = shiftCharsUs[5]
+  document.getElementById("char-6-3").innerHTML = altgrCharsUs[5]
+  document.getElementById("char-6-3").style.background = "white";
+  document.getElementById("char-6-4").innerHTML = altgrShiftCharsUs[5]
+  document.getElementById("char-7-1").innerHTML = noModCharsUs[6]
+  document.getElementById("char-7-2").innerHTML = shiftCharsUs[6]
+  document.getElementById("char-7-3").innerHTML = altgrCharsUs[6]
+  document.getElementById("char-7-3").style.background = "white";
+  document.getElementById("char-7-4").innerHTML = altgrShiftCharsUs[6]
+  document.getElementById("char-8-1").innerHTML = noModCharsUs[7]
+  document.getElementById("char-8-2").innerHTML = shiftCharsUs[7]
+  document.getElementById("char-8-3").innerHTML = altgrCharsUs[7]
+  document.getElementById("char-8-4").innerHTML = altgrShiftCharsUs[7]
+  document.getElementById("char-9-1").innerHTML = noModCharsUs[8]
+  document.getElementById("char-9-2").innerHTML = shiftCharsUs[8]
+  document.getElementById("char-9-3").innerHTML = altgrCharsUs[8]
+  document.getElementById("char-9-3").style.background = "white";
+  document.getElementById("char-9-4").innerHTML = altgrShiftCharsUs[8]
+  document.getElementById("char-10-1").innerHTML = noModCharsUs[9]
+  document.getElementById("char-10-2").innerHTML = shiftCharsUs[9]
+  document.getElementById("char-10-3").innerHTML = altgrCharsUs[9]
+  document.getElementById("char-10-3").style.background = "white";
+  document.getElementById("char-10-4").innerHTML = altgrShiftCharsUs[9]
+  document.getElementById("char-11-1").innerHTML = noModCharsUs[10]
+  document.getElementById("char-11-2").innerHTML = shiftCharsUs[10]
+  document.getElementById("char-11-3").innerHTML = altgrCharsUs[10]
+  document.getElementById("char-11-3").style.background = "white";
+  document.getElementById("char-11-4").innerHTML = altgrShiftCharsUs[10]
+  document.getElementById("char-12-1").innerHTML = noModCharsUs[11]
+  document.getElementById("char-12-2").innerHTML = shiftCharsUs[11]
+  document.getElementById("char-12-3").innerHTML = altgrCharsUs[11]
+  document.getElementById("char-12-3").style.background = "white";
+  document.getElementById("char-12-4").innerHTML = altgrShiftCharsUs[11]
+  document.getElementById("char-13-1").innerHTML = noModCharsUs[12]
+  document.getElementById("char-13-1").style.background = "white";
+  document.getElementById("char-13-2").innerHTML = shiftCharsUs[12]
+  document.getElementById("char-13-2").style.background = "white";
+  document.getElementById("char-13-3").innerHTML = altgrCharsUs[12]
+  document.getElementById("char-13-3").style.background = "white";
+  document.getElementById("char-13-4").innerHTML = altgrShiftCharsUs[12]
+  document.getElementById("char-13-4").style.background = "white";
+  document.getElementById("char-14-1").innerHTML = noModCharsUs[13]
+  document.getElementById("char-14-2").innerHTML = shiftCharsUs[13]
+  document.getElementById("char-14-3").innerHTML = altgrCharsUs[13]
+  document.getElementById("char-14-4").innerHTML = altgrShiftCharsUs[13]
+  document.getElementById("char-15-1").innerHTML = noModCharsUs[14]
+  document.getElementById("char-15-2").innerHTML = shiftCharsUs[14]
+  document.getElementById("char-15-3").innerHTML = altgrCharsUs[14]
+  document.getElementById("char-15-4").innerHTML = altgrShiftCharsUs[14]
+  document.getElementById("char-16-1").innerHTML = noModCharsUs[15]
+  document.getElementById("char-16-2").innerHTML = shiftCharsUs[15]
+  document.getElementById("char-16-3").innerHTML = altgrCharsUs[15]
+  document.getElementById("char-16-4").innerHTML = altgrShiftCharsUs[15]
+  document.getElementById("char-17-1").innerHTML = noModCharsUs[16]
+  document.getElementById("char-17-2").innerHTML = shiftCharsUs[16]
+  document.getElementById("char-17-3").innerHTML = altgrCharsUs[16]
+  document.getElementById("char-17-4").innerHTML = altgrShiftCharsUs[16]
+  document.getElementById("char-18-1").innerHTML = noModCharsUs[17]
+  document.getElementById("char-18-2").innerHTML = shiftCharsUs[17]
+  document.getElementById("char-18-3").innerHTML = altgrCharsUs[17]
+  document.getElementById("char-18-4").innerHTML = altgrShiftCharsUs[17]
+  document.getElementById("char-19-1").innerHTML = noModCharsUs[18]
+  document.getElementById("char-19-2").innerHTML = shiftCharsUs[18]
+  document.getElementById("char-19-3").innerHTML = altgrCharsUs[18]
+  document.getElementById("char-19-4").innerHTML = altgrShiftCharsUs[18]
+  document.getElementById("char-20-1").innerHTML = noModCharsUs[19]
+  document.getElementById("char-20-2").innerHTML = shiftCharsUs[19]
+  document.getElementById("char-20-3").innerHTML = altgrCharsUs[19]
+  document.getElementById("char-20-4").innerHTML = altgrShiftCharsUs[19]
+  document.getElementById("char-21-1").innerHTML = noModCharsUs[20]
+  document.getElementById("char-21-2").innerHTML = shiftCharsUs[20]
+  document.getElementById("char-21-3").innerHTML = altgrCharsUs[20]
+  document.getElementById("char-21-4").innerHTML = altgrShiftCharsUs[20]
+  document.getElementById("char-22-1").innerHTML = noModCharsUs[21]
+  document.getElementById("char-22-2").innerHTML = shiftCharsUs[21]
+  document.getElementById("char-22-3").innerHTML = altgrCharsUs[21]
+  document.getElementById("char-22-4").innerHTML = altgrShiftCharsUs[21]
+  document.getElementById("char-23-1").innerHTML = noModCharsUs[22]
+  document.getElementById("char-23-2").innerHTML = shiftCharsUs[22]
+  document.getElementById("char-23-3").innerHTML = altgrCharsUs[22]
+  document.getElementById("char-23-3").style.background = "white";
+  document.getElementById("char-23-4").innerHTML = altgrShiftCharsUs[22]
+  document.getElementById("char-23-4").style.background = "white";
+  document.getElementById("char-24-1").innerHTML = noModCharsUs[23]
+  document.getElementById("char-24-2").innerHTML = shiftCharsUs[23]
+  document.getElementById("char-24-3").innerHTML = altgrCharsUs[23]
+  document.getElementById("char-24-3").style.background = "white";
+  document.getElementById("char-24-4").innerHTML = altgrShiftCharsUs[23]
+  document.getElementById("char-24-4").style.background = "white";
+  document.getElementById("char-25-1").innerHTML = noModCharsUs[24]
+  document.getElementById("char-25-1").style.background = "white";
+  document.getElementById("char-25-2").innerHTML = shiftCharsUs[24]
+  document.getElementById("char-25-2").style.background = "white";
+  document.getElementById("char-25-3").innerHTML = altgrCharsUs[24]
+  document.getElementById("char-25-3").style.background = "white";
+  document.getElementById("char-25-4").innerHTML = altgrShiftCharsUs[24]
+  document.getElementById("char-25-4").style.background = "white";
+  document.getElementById("char-26-1").innerHTML = noModCharsUs[25]
+  document.getElementById("char-26-2").innerHTML = shiftCharsUs[25]
+  document.getElementById("char-26-3").innerHTML = altgrCharsUs[25]
+  document.getElementById("char-26-4").innerHTML = altgrShiftCharsUs[25]
+  document.getElementById("char-27-1").innerHTML = noModCharsUs[26]
+  document.getElementById("char-27-2").innerHTML = shiftCharsUs[26]
+  document.getElementById("char-27-3").innerHTML = altgrCharsUs[26]
+  document.getElementById("char-27-4").innerHTML = altgrShiftCharsUs[26]
+  document.getElementById("char-28-1").innerHTML = noModCharsUs[27]
+  document.getElementById("char-28-2").innerHTML = shiftCharsUs[27]
+  document.getElementById("char-28-3").innerHTML = altgrCharsUs[27]
+  document.getElementById("char-28-4").innerHTML = altgrShiftCharsUs[27]
+  document.getElementById("char-29-1").innerHTML = noModCharsUs[28]
+  document.getElementById("char-29-2").innerHTML = shiftCharsUs[28]
+  document.getElementById("char-29-3").innerHTML = altgrCharsUs[28]
+  document.getElementById("char-29-4").innerHTML = altgrShiftCharsUs[28]
+  document.getElementById("char-30-1").innerHTML = noModCharsUs[29]
+  document.getElementById("char-30-2").innerHTML = shiftCharsUs[29]
+  document.getElementById("char-30-3").innerHTML = altgrCharsUs[29]
+  document.getElementById("char-30-4").innerHTML = altgrShiftCharsUs[29]
+  document.getElementById("char-31-1").innerHTML = noModCharsUs[30]
+  document.getElementById("char-31-2").innerHTML = shiftCharsUs[30]
+  document.getElementById("char-31-3").innerHTML = altgrCharsUs[30]
+  document.getElementById("char-31-4").innerHTML = altgrShiftCharsUs[30]
+  document.getElementById("char-32-1").innerHTML = noModCharsUs[31]
+  document.getElementById("char-32-2").innerHTML = shiftCharsUs[31]
+  document.getElementById("char-32-3").innerHTML = altgrCharsUs[31]
+  document.getElementById("char-32-4").innerHTML = altgrShiftCharsUs[31]
+  document.getElementById("char-33-1").innerHTML = noModCharsUs[32]
+  document.getElementById("char-33-2").innerHTML = shiftCharsUs[32]
+  document.getElementById("char-33-3").innerHTML = altgrCharsUs[32]
+  document.getElementById("char-33-4").innerHTML = altgrShiftCharsUs[32]
+  document.getElementById("char-34-1").innerHTML = noModCharsUs[33]
+  document.getElementById("char-34-2").innerHTML = shiftCharsUs[33]
+  document.getElementById("char-34-3").innerHTML = altgrCharsUs[33]
+  document.getElementById("char-34-3").style.background = "white";
+  document.getElementById("char-34-4").innerHTML = altgrShiftCharsUs[33]
+  document.getElementById("char-35-1").innerHTML = noModCharsUs[34]
+  document.getElementById("char-35-2").innerHTML = shiftCharsUs[34]
+  document.getElementById("char-35-3").innerHTML = altgrCharsUs[34]
+  document.getElementById("char-35-4").innerHTML = altgrShiftCharsUs[34]
+  document.getElementById("char-36-1").innerHTML = noModCharsUs[35]
+  document.getElementById("char-36-2").innerHTML = shiftCharsUs[35]
+  document.getElementById("char-36-3").innerHTML = altgrCharsUs[35]
+  document.getElementById("char-36-4").innerHTML = altgrShiftCharsUs[35]
+  document.getElementById("char-37-1").innerHTML = noModCharsUs[36]
+  document.getElementById("char-37-2").innerHTML = shiftCharsUs[36]
+  document.getElementById("char-37-3").innerHTML = altgrCharsUs[36]
+  document.getElementById("char-37-3").style.background = "white";
+  document.getElementById("char-37-4").innerHTML = altgrShiftCharsUs[36]
+  document.getElementById("char-37-4").style.background = "white";
+  document.getElementById("char-38-1").innerHTML = noModCharsUs[37]
+  document.getElementById("char-38-2").innerHTML = shiftCharsUs[37]
+  document.getElementById("char-38-3").innerHTML = altgrCharsUs[37]
+  document.getElementById("char-38-4").innerHTML = altgrShiftCharsUs[37]
+  document.getElementById("char-39-1").innerHTML = noModCharsUs[38]
+  document.getElementById("char-39-2").innerHTML = shiftCharsUs[38]
+  document.getElementById("char-39-3").innerHTML = altgrCharsUs[38]
+  document.getElementById("char-39-4").innerHTML = altgrShiftCharsUs[38]
+  document.getElementById("char-40-1").innerHTML = noModCharsUs[39]
+  document.getElementById("char-40-2").innerHTML = shiftCharsUs[39]
+  document.getElementById("char-40-3").innerHTML = altgrCharsUs[39]
+  document.getElementById("char-40-4").innerHTML = altgrShiftCharsUs[39]
+  document.getElementById("char-41-1").innerHTML = noModCharsUs[40]
+  document.getElementById("char-41-2").innerHTML = shiftCharsUs[40]
+  document.getElementById("char-41-3").innerHTML = altgrCharsUs[40]
+  document.getElementById("char-41-4").innerHTML = altgrShiftCharsUs[40]
+  document.getElementById("char-42-1").innerHTML = noModCharsUs[41]
+  document.getElementById("char-42-2").innerHTML = shiftCharsUs[41]
+  document.getElementById("char-42-3").innerHTML = altgrCharsUs[41]
+  document.getElementById("char-42-4").innerHTML = altgrShiftCharsUs[41]
+  document.getElementById("char-43-1").innerHTML = noModCharsUs[42]
+  document.getElementById("char-43-2").innerHTML = shiftCharsUs[42]
+  document.getElementById("char-43-3").innerHTML = altgrCharsUs[42]
+  document.getElementById("char-43-4").innerHTML = altgrShiftCharsUs[42]
+  document.getElementById("char-44-1").innerHTML = noModCharsUs[43]
+  document.getElementById("char-44-2").innerHTML = shiftCharsUs[43]
+  document.getElementById("char-44-3").innerHTML = altgrCharsUs[43]
+  document.getElementById("char-44-4").innerHTML = altgrShiftCharsUs[43]
+  document.getElementById("char-45-1").innerHTML = noModCharsUs[44]
+  document.getElementById("char-45-2").innerHTML = shiftCharsUs[44]
+  document.getElementById("char-45-3").innerHTML = altgrCharsUs[44]
+  document.getElementById("char-45-4").innerHTML = altgrShiftCharsUs[44]
+  document.getElementById("char-46-1").innerHTML = noModCharsUs[45]
+  document.getElementById("char-46-2").innerHTML = shiftCharsUs[45]
+  document.getElementById("char-46-3").innerHTML = altgrCharsUs[45]
+  document.getElementById("char-46-4").innerHTML = altgrShiftCharsUs[45]
+  document.getElementById("char-47-1").innerHTML = noModCharsUs[46]
+  document.getElementById("char-47-2").innerHTML = shiftCharsUs[46]
+  document.getElementById("char-47-3").innerHTML = altgrCharsUs[46]
+  document.getElementById("char-47-3").style.background = "white";
+  document.getElementById("char-47-4").innerHTML = altgrShiftCharsUs[46]
+  document.getElementById("char-47-4").style.background = "white";
+  document.getElementById("char-48-1").innerHTML = noModCharsUs[47]
+  document.getElementById("char-48-2").innerHTML = shiftCharsUs[47]
+  document.getElementById("char-48-3").innerHTML = altgrCharsUs[47]
+  document.getElementById("char-48-4").innerHTML = altgrShiftCharsUs[47]
+  document.getElementById("char-48-4").style.background = "white";
 }
